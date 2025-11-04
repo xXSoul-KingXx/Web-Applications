@@ -1,0 +1,81 @@
+:root {
+    --color-1: sandybrown;
+    --color-2: darkred;
+    --indent: 1.6rem;
+}
+
+:root {
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 2rem;
+}
+header {
+    margin: 2rem 0;
+}
+
+header img {
+    float: left;
+    margin-right: 1.5rem;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    margin: .5rem;
+    color: var(--color-1);
+    text-shadow: 2px 2px 2px black;
+}
+
+header h3 {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin: 0;
+}
+
+header .emphasis {
+    text-shadow: 2px 2px 2px var(--color-1);
+}
+
+main {
+    clear: left;
+}
+
+main h2 {
+    font-size: 1.5rem;
+    color: var(--color-2);
+}
+
+main blockquote {
+    margin-left: var(--indent);
+}
+
+hr {
+    margin: 2rem 0;
+}
+
+main h2:last-of-type {
+    color: black;
+    margin-top: 2rem;
+}
+
+main h3 {
+    font-size: 1rem;
+}
+
+main h3, main img {
+    margin-left: var(--indent);
+}
+
+main h3 a:hover,
+main h3 a:focus,
+main h3 a:active {
+    font-style: italic;
+    color: var(--color-2);
+}
+
+footer p {
+    text-align: center;
+}
+

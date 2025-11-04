@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-background: moccasin;
+    --color-main-heading: darkorange;
+    --color-not-available-links: darkgray;
+    --color-available-links: var(--color-main-heading);
+}
+
+html {
+    height: 100vh;
+    background-color: moccasin;
+    background-image: linear-gradient(to bottom, white 0%,  var(--color-background) 100%);
+}
+
+body {
+    background-color: white;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2.5vw auto;
+    padding: 2.5vw 5vw;
+    min-width: 425px;
+    width: 60vw;
+    border: 2.5px solid black;
+    border-radius: 25px;
+    box-shadow: 2.5px 2.5px 10px black;
+}
+
+header {
+    padding: 2vh 0 3.5vh 0;
+    border-bottom: 2.5px solid var(--color-background);
+}
+
+header img {
+    float: left;
+    margin-right: 2.5vw;
+}
+
+h1 {
+    font-size: 2rem;
+    color: darkorange;
+    text-shadow: 2.5px 2.5px 2.5px black;
+    margin-bottom: 1vh
+}
+
+header h3 {
+    font-size: 1.25rem;
+}
+
+main {
+    clear: left;
+    margin: 2.5vh 0;
+}
+
+main section {
+    margin: 3.5vh 0;
+}
+
+main section ul {
+    margin-left: 2rem;
+}
+
+ul li a:link {
+    font-size: 1rem;
+    color: var(--color-available-links);
+    text-shadow: 0.2px 0.2px darkorange;
+}
+
+ul li a:hover,
+ul li a:focus,
+ul li a:active {
+    color: maroon;
+    text-shadow: none;
+}
+
+ul li a.not-available:link,
+ul li a.not-available:hover,
+ul li a.not-available:focus,
+ul li a.not-available:active {
+    color: var(--color-not-available-links);
+    text-shadow: none;
+    cursor: default;
+}
+
+main section h2 {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+
+main section p {
+    font-size: 1.rem;
+    line-height: 1.2rem;
+    margin-bottom: .5rem;
+}
+
+span.bold {
+    font-weight: bold;
+}
+
+footer {
+    border-top: 2.5px solid var(--color-background);
+    padding: 2.5% 0% 1%;
+    text-align: right;
+    font-size: 0.75rem;
+}

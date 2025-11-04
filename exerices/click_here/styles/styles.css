@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+:root {
+    --color-background: white;
+    --color-link: cyan;
+    --color-shadow-link: deepskyblue;
+    --color-active: magenta;
+    --color-shadow-active: orchid;
+}
+
+section.click-here-div {
+    margin: 5rem auto;
+    min-width: 150px;
+    max-width: 250px;
+}
+
+p.click-here-link a {
+    display: block;
+    background-color: var(--color-background);
+    text-decoration: none;
+    text-shadow: 2.5px 2.5px 2.5px var(--color-shadow-link);
+    border: 2px solid var(--color-link);
+    border-radius: 50px 25px;
+    text-align: center;
+    font-size: 2rem;
+    margin: auto;
+    padding: 2rem 0;
+}
+
+p.click-here-link a:link {
+    color: var(--color-link);
+    box-shadow: 5px 5px 50px var(--color-shadow-link);
+}
+
+p.click-here-link a:hover,
+p.click-here-link a:focus,
+p.click-here-link a:active {
+    color: var(--color-active);
+    border-color: var(--color-active);
+    text-shadow: 2.5px 2.5px 2.5px var(--color-shadow-active);
+    box-shadow: 5px 5px 50px var(--color-shadow-active);
+
+}
