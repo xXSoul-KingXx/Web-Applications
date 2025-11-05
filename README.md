@@ -6,3 +6,4 @@ In this file I will list, on a daily-based schedule, what I've worked on.
           the first I recreated a full example from scratch using what I've learned, the second an exercise, which I tweaked in order to make the page more appealing, 
           and consisted in making the styles for the "Town Hall" Website.
   11/04/2025  done chapter 5 of Murach's Html & Css, short of the main exercise which is to redesign "Town Hall" using the box model. I did two exercise using the box model.
+  11/05/2025  done the main exercise of chapter 5 of Murach's Html & Css, the workflow went smoother, but the code is not organized properly, nor the result is accurate yet.
