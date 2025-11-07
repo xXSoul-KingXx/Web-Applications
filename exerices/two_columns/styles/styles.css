@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+header {
+    background-color: lightskyblue;
+    text-align: center;
+    margin: 10px 0;
+    padding: 20px 0;
+}
+
+main {
+    background-color: lightgreen;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 30vh 0;
+    width: 60%;
+    float: left;
+}
+
+aside {
+    background-color: lightpink;
+    text-align: center;
+    margin-left: ;
+    padding: 30vh 0;
+    width: 40%;
+    float: right;
+}
+
+footer {
+    background-color: lightskyblue;
+    text-align: center;
+    padding: 10px 0;
+    clear: both;
+}

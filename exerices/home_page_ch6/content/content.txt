@@ -1,0 +1,62 @@
+--header
+[h1] 
+San Joaquin Valley Town Hall
+
+[h3] 
+Bringing cutting-edge speakers to the valley
+--header
+
+--main
+
+-- --section
+-- -- --nav
+[h2] 
+This season's guest speakers
+
+[ul]
+October: David Brancaccio
+November: Andrew Ross Sorkin
+January: Amy Chua
+February: Scott Sampson
+March: Carlos Eire
+April: Ronan Tynan
+-- -- --nav
+
+[h2] 
+Looking for an unique gift?
+
+[p]
+Town Hall has the answer. For only $100, you can get a book of tickets for all of the remaining speakers. And the bargain includes a second book of tickets for a companion.
+
+[p]
+Or, for $50, you can give yourself the gift of our speakers, and still get an extra ticket for a companion, but for just one of the events. 
+
+[p]
+See you at the next show?
+
+[p]
+Contact us by phone at (559) 555-1212 for ticket information.
+-- --section
+
+-- --aside
+[h3] 
+Lecture notes
+
+[h4]
+Event change for November
+
+[p]
+SJV Town Hall is pleased to announce the addition of award-winning author Andrew Ross Sorkin. The appearance of previously scheduled speaker, Greg Mortenson, has been postponed.
+
+[h4]
+Lecture day, time, and location
+
+[p]
+All one-hour lectures are on the second Wednesday of the month beginnning at 10:30 a.m. at William Saroyan Theatre, 700 M Street, Fresno, Ca.
+-- --aside
+-- main
+
+-- footer
+[p]
+[copy] Copyright 2022 San Joaquin Valley Town Hall
+--footer
